@@ -4,10 +4,25 @@
     box-sizing: border-box;
     border: 0;
     font-family: 'Hanken Grotesk', sans-serif;
-    font-size: 18px;
+    /* font-size: 18px; */
 }
-.container{
-    margin:120px;
+body{
+    background-color: #000;
+}
+ .container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #fff; */
+}
+.card{
+    display: flex;
+    border: 1px solid black;
+    width: 700px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 25px;
 }
 .container .result{
     background: linear-gradient(#6141FC,#322DEB);
@@ -15,8 +30,8 @@
     border-radius: 25px;
     padding: 20px;
     text-align: center;
-    width: 20%;
-    float: left;
+    /* width: 20%;
+    float: left; */
 }
 .container .result .marks{
     background: linear-gradient(#322DEB,#6141FC);
@@ -25,23 +40,38 @@
     height: 150px;
     border-radius: 50%;
     padding: 20px;
-    margin: 50px 0 50px 85px;
+    margin: 50px 0 50px 75px;
 }
 .container .summary{
     background: #fff;
+    width: 50%;
     padding: 20px;
-    border: 1px solid black;
-    width: 20%;
-    float: left;
-}
-.container .summary .grey{
-    color: grey;
-    float: right;
 }
 .container .summary .btn{
     background-color: #303B59;
     color: #fff;
-    height: 20%;
+    /* height: 15%; */
     width: 100%;
-    border-radius: 10px;
+    border-radius: 20px;
+    margin-top: 150px;
+    padding: 15px;
+    font-size: 20px; 
+}
+.reaction,.memory,.verbal,.visual{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.reaction{
+    background-color:rgb(255, 244, 244);
+}
+.memory{
+    background-color: rgb(252, 248, 241);
+}
+.verbal{
+    background-color: #effffb;
+}
+.visual{
+    background-color: #f7f8fd;
 }
