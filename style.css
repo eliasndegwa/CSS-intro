@@ -4,21 +4,15 @@
     box-sizing: border-box;
     border: 0;
     font-family: 'Hanken Grotesk', sans-serif;
-    /* font-size: 18px; */
-}
-body{
-    background-color: #000;
 }
  .container{
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: #fff; */
 }
 .card{
     display: flex;
-    border: 1px solid black;
     width: 700px;
     height: 500px;
     background-color: #fff;
@@ -30,8 +24,6 @@ body{
     border-radius: 25px;
     padding: 20px;
     text-align: center;
-    /* width: 20%;
-    float: left; */
 }
 .container .result .marks{
     background: linear-gradient(#322DEB,#6141FC);
@@ -50,7 +42,6 @@ body{
 .container .summary .btn{
     background-color: #303B59;
     color: #fff;
-    /* height: 15%; */
     width: 100%;
     border-radius: 20px;
     margin-top: 150px;
